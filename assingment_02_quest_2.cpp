@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    cout << "The perfect numbers between 1 to 500 are:-" << endl;
+    cout << "The perfect numbers between 1 to 500 are: ";
     // Check each number from 1 to 500
     for (int n = 1; n <= 500; n++)
     {

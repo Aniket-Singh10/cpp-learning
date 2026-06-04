@@ -10,6 +10,7 @@ int main()
     cin >> b;
 
     int rem;
+    cout << "for the input " << a << " and " << b << " ";
 
     // Repeat until remainder becomes 0
     while (b != 0)
@@ -18,7 +19,7 @@ int main()
         a = b;
         b = rem;
     }
-    cout << "GCD is " << a;
+    cout << ",the GCD is: " << a;
 
     return 0;
 }
