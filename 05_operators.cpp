@@ -3,15 +3,22 @@ using namespace std;
 
 int main()
 {
-    int height, base;
-    float area;
-    cout << "Enter height of the triangle" << endl;
-    cin >> height;
-    cout << "Enter base of the triangle" << endl;
-    cin >> base;
-    area = 0.5 * (base * height);
-    cout << "Area of the triangle : " << area << endl;
-    return 0;
+    // int height, base;
+    // float area;
+    // cout << "Enter height of the triangle" << endl;
+    // cin >> height;
+    // cout << "Enter base of the triangle" << endl;
+    // cin >> base;
+    // area = 0.5 * (base * height);
+    // cout << "Area of the triangle : " << area << endl;
+    // return 0;
+
+    // Left Shift and Right Shift:-
+    cout << (3 << 2) << endl;
+    cout << (5 << 3) << endl;
+    cout << (5 >> 1) << endl;
+    cout << (21 >> 2) << endl;
+    cout << (100 << 1) << endl;
 }
 /*
 C++ OPERATOR PRECEDENCE (HIGH → LOW)
