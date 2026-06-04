@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // Input two integers
     int a, b;
     cout << "Enter first number :" << endl;
     cin >> a;
@@ -10,6 +11,7 @@ int main()
 
     int rem;
 
+    // Repeat until remainder becomes 0
     while (b != 0)
     {
         rem = a % b;

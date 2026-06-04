@@ -4,7 +4,7 @@ int main()
 {
     // Print the first 10 natural numbers using a while loop
 
-    cout << "The natural numbers are: ";
+    cout << "The 1 to 10 natural numbers are: ";
     int i = 1;
     while (i <= 10)
     {
