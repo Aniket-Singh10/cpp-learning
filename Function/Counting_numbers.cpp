@@ -13,4 +13,6 @@ int main()
     int a;
     cin >> a;
     counting(a);
+
+    return 0;
 }
